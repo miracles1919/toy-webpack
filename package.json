@@ -1,0 +1,17 @@
+{
+  "name": "toy-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "miracles",
+  "dependencies": {
+    "@babel/generator": "^7.17.0",
+    "@babel/parser": "^7.17.0",
+    "@babel/traverse": "^7.17.0",
+    "@babel/types": "^7.17.0",
+    "tapable": "^2.2.1"
+  }
+}
