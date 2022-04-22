@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`style-loader should work: DOM 1`] = `
+"<!DOCTYPE html><html><head>
+          <title>style-loader test</title>
+          <style id=\\"existing-style\\">.existing { color: yellow }</style>
+        <style>body {
+  color: red;
+}</style></head>
+        <body>
+          <h1>Body</h1>
+          <div class=\\"target\\"></div>
+        
+        
+      </body></html>"
+`;
