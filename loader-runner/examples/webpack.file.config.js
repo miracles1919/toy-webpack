@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: path.resolve(__dirname, './src/url/index.js'),
+  entry: path.resolve(__dirname, './src/file/index.js'),
   devtool: false,
   mode: 'development',
   output: {
@@ -15,14 +15,7 @@ module.exports = {
         test: /\.png$/,
         use: [
           {
-            loader: path.resolve(__dirname, '../loaders/url-loader/index.js'),
-            options: {
-              limit: 2048,
-              fallback: path.resolve(
-                __dirname,
-                '../loaders/file-loader/index.js'
-              ),
-            },
+            loader: path.resolve(__dirname, '../loaders/file-loader/index.js'),
           },
         ],
       },

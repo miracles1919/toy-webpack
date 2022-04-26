@@ -8,7 +8,7 @@
     "build:style-loader": "webpack --config ./loader-runner/examples/webpack.style.config.js",
     "build:less-loader": "webpack --config ./loader-runner/examples/webpack.less.config.js",
     "build:file-loader": "webpack --config ./loader-runner/examples/webpack.file.config.js",
-    "build:url-loader": "webpack --config ./loader-runner/examples/webpack.file.config.js"
+    "build:url-loader": "webpack --config ./loader-runner/examples/webpack.url.config.js"
   },
   "author": "miracles",
   "dependencies": {
