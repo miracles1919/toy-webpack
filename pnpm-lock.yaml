@@ -11,6 +11,7 @@ specifiers:
   jsdom: ^19.0.0
   less: ^4.1.2
   loader-runner: ^4.3.0
+  loader-utils: ^3.2.0
   memfs: ^3.4.1
   tapable: ^2.2.1
   webpack: ^5.72.0
@@ -25,6 +26,7 @@ dependencies:
   html-webpack-plugin: registry.npmmirror.com/html-webpack-plugin/5.5.0_webpack@5.72.0
   less: registry.npmmirror.com/less/4.1.2
   loader-runner: registry.npmmirror.com/loader-runner/4.3.0
+  loader-utils: registry.npmmirror.com/loader-utils/3.2.0
   memfs: registry.npmmirror.com/memfs/3.4.1
   tapable: registry.npmmirror.com/tapable/2.2.1
   webpack: registry.npmmirror.com/webpack/5.72.0_webpack-cli@4.9.2
@@ -3209,6 +3211,13 @@ packages:
     name: loader-runner
     version: 4.3.0
     engines: {node: '>=6.11.5'}
+    dev: false
+
+  registry.npmmirror.com/loader-utils/3.2.0:
+    resolution: {integrity: sha512-HVl9ZqccQihZ7JM85dco1MvO9G+ONvxoGa9rkhzFsneGLKSUg1gJf9bWzhRhcvm2qChhWpebQhP44qxjKIUCaQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/loader-utils/-/loader-utils-3.2.0.tgz}
+    name: loader-utils
+    version: 3.2.0
+    engines: {node: '>= 12.13.0'}
     dev: false
 
   registry.npmmirror.com/locate-path/5.0.0:
