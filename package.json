@@ -7,7 +7,8 @@
     "test": "jest",
     "build:style-loader": "webpack --config ./loader-runner/examples/webpack.style.config.js",
     "build:less-loader": "webpack --config ./loader-runner/examples/webpack.less.config.js",
-    "build:file-loader": "webpack --config ./loader-runner/examples/webpack.file.config.js"
+    "build:file-loader": "webpack --config ./loader-runner/examples/webpack.file.config.js",
+    "build:url-loader": "webpack --config ./loader-runner/examples/webpack.file.config.js"
   },
   "author": "miracles",
   "dependencies": {
@@ -21,6 +22,7 @@
     "loader-runner": "^4.3.0",
     "loader-utils": "^3.2.0",
     "memfs": "^3.4.1",
+    "mime": "^3.0.0",
     "tapable": "^2.2.1",
     "webpack": "^5.72.0",
     "webpack-cli": "^4.9.2"
